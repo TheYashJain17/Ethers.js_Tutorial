@@ -1,0 +1,26 @@
+In this file we are seeing how can we read data of blockchain , write data on blockchain 
+get access of data of events of blockchain and see particular data related to indexed keyword 
+with the help of Ethers.js.
+
+So we are learning how to perform all the things mentioned above with the help of Ethers.js
+
+We have our smart contract which is Contract.sol , we have made this here for our reference
+as we need to deploy our contract on blockchain , here we are deploying our contract on testnet
+which could be ether seploia or goerli.
+
+                            IMPORTANT NOTE
+
+Always remember on which blockchain network you deployed the contract like goerli or sepolia 
+use RPC URL of the same network , if you deploy the contract on goerli network then use
+RPC URL of goerli network and so on.
+
+WE need ABI of contract it is important to interact with contract , and we can get the
+ABI of contract by deploying it either with the truffle or hardhat or we can also get
+the ABI of a smart contract through our remix ide , there is a separate option for this.
+
+For getting the RPC URL go to infura or alchemy and there create an account and then create a 
+new key and choose the network(goerli mainnet or sepolia) on which our smart contract is deployed
+because then only we can interact with our deployed smart contract.
+
+In transfer.json we have a json file , in which our ABI is present , therefore to access our ABI
+store the ABI as we have done inside our project.
